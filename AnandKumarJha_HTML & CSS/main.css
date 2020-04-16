@@ -1,0 +1,308 @@
+
+input[type="email"]::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: center; 
+            } 
+input[type="password"]::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: left; 
+                letter-spacing: 1px;
+
+            } 
+
+input[type="text"]::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: left; 
+                letter-spacing: 1px;
+            } 
+input[type="tel"]::placeholder {  
+                  
+                /* Firefox, Chrome, Opera */ 
+                text-align: left; 
+            } 
+input[type="email"]:-ms-input-placeholder { 
+                  
+                /* Internet Explorer 10-11 */ 
+                text-align: center; 
+            } 
+input[type="email"]::-ms-input-placeholder {  
+                  
+                /* Microsoft Edge */ 
+                text-align: center; 
+            } 
+
+body{
+    margin:0;
+    padding: 0;
+    height:100vh;
+    width:100%;
+    background: #EBE9E9;
+}
+.login-wrapper{
+    height:100%;
+    width:50%;
+    margin: 0 25%;
+    background: white;
+    
+    
+}
+.signin-header{
+    background: #77CED8;
+    height:8.6%;
+    width:90%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+    align-items: center;
+}
+.header-text{
+    color:white;
+    font-family: roboto;
+    
+}
+.x-button{
+    color:white;
+    font-family:sans-serif;
+    font-size: 30px;
+    transform: rotate(45deg);
+    -ms-transform: rotate(20deg); /* IE 9 */
+    cursor: pointer;
+
+
+}
+.login-form-wrapper{
+    height:25.57%;
+    width:100%;
+    background: white;
+        
+}
+
+.button{
+    height:3.5%;
+    width:90%;
+    margin:0 5%;
+    background: #77CED8;
+    border-radius:5px;
+    color: white;
+    text-align: center;
+    padding: 1.8% 0;
+    font-size: 110%;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    cursor:pointer;
+}
+.login-form{
+    height:100%;
+    width:90%;
+    margin:0 5%;
+    background: white;
+}
+.extra-space-1{
+    height: 1%;
+    width:100%;
+    background: white;
+    margin-bottom: 6.34%;
+
+}
+.inp-1{
+    height:27.1%;
+    width:100%;
+    background: white;
+    margin-bottom: 3.3%;
+    border-radius:5px;
+    border:1px solid #E0DBDB;
+
+    
+}
+.inp-2{
+    height:27.1%;
+    width:100%;
+    background: white;
+    border-radius:5px;
+    border:1px solid #E0DBDB;
+    margin-bottom: 
+
+
+    
+}
+.username-1{
+    width:86%;
+    height:100%;
+    margin:0;
+    padding: 0;
+    border:none;
+    border-radius:5px;
+    padding: 0 2%;
+    outline: none;
+
+}
+.password-1{
+     width:86%;
+    height:100%;
+    margin:0;
+    padding: 0;
+    border:none;
+    border-radius:5px;
+    padding: 0 2%;
+    outline: none;
+}
+.inp-1 > i{
+    color:grey;
+    height:100%;
+    
+}
+
+.inp-2 > i{
+    color:grey;
+    height:100%;
+    
+}
+.flex-container{
+    height:7.97%;
+    width:90%;
+    margin:0 5%;
+    background: white;
+    display: flex;
+    align-content:space-between;
+    justify-content: center;
+    
+}
+p{
+    color:grey;
+    height:92%;
+    font-family: sans-serif;
+    margin:0;
+}
+.flex-between{
+    flex:1;
+    margin: 0;
+
+}
+.or-div{
+    height:11.62%;
+    width:90%;
+    margin:0 5%;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: roboto;
+    color:#E0DBDB;
+}
+.dash{
+    width:40%;
+    
+    height:1.5%;
+    background:#E0DBDB;
+}
+.facebook-button{
+    height:6.976%;
+    width:90%;
+    border-radius: 5px;
+    margin:0 5%;
+    background: #6881C0;
+    margin-bottom: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.facebook-button > i{
+    color:white;
+}
+.google-button{
+    height:6.976%;
+    width:90%;
+    border-radius: 5px;
+    margin:0 5%;
+    background: #E27C6E;
+    margin-bottom: 6.81%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+.logo{
+}
+.google-button > i{
+    color:white;
+}
+.epam-1{
+    height:3.476%;
+    width:90%;
+    border-radius: 5px;
+    margin:0 5%;
+    background: #CCDC58;
+    color:white;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding:3% 0%;
+    font-size: 110%;
+    cursor: pointer;
+
+}
+@media only screen and (max-width: 800px) {
+        .login-wrapper{
+            height:100%;
+            width:60%;
+            margin:0 20%;
+            background: white;
+        }
+
+    
+}
+@media only screen and (max-width: 700px) {
+        .login-wrapper{
+            height:100%;
+            width:70%;
+            margin:0 15%;
+            background: white;
+        }
+
+    
+}
+@media only screen and (max-width: 600px) {
+        .login-wrapper{
+            height:100%;
+            width:70%;
+            margin:0 15%;
+            background: white;
+        }
+
+    
+}
+@media only screen and (max-width: 500px) {
+        .login-wrapper{
+            height:100%;
+            width:100%;
+            margin:0%;
+            background: white;
+        }
+
+    
+}
+@media only screen and (max-width: 450px) {
+        .login-wrapper{
+            height:100%;
+            width:100%;
+            margin:0%;
+            background: white;
+        }
+
+    
+}
+@media only screen and (max-width: 400px) {
+        .login-wrapper{
+            height:100%;
+            width:100%;
+            margin: 0 ;
+            background: white;
+        }
+
+    
+}
